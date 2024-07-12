@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Главная</a></li>
+            <li><a href="{{ url_for('blog') }}">Блог</a></li>
+            <li><a href="{{ url_for('contacts') }}">Контакты</a></li>
+        </ul>
+    </nav>
+    <h1>Свяжитесь с нами</h1>
+    <p>Вы можете связаться с нами по email или телефону.</p>
+</body>
+</html>
